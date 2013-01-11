@@ -9,5 +9,5 @@ My branch to integrate yeoman and express.js is not officially accepted in yeoma
 	* Replace $YEOMAN/tasks/server.js with the same file from my branch (e.g. `~/yeoman-blai/cli/tasks/server.js`)
 	* Other way to do this is to point your `/usr/local/share/npm/bin/yeoman` to my branch (e.g. `~/yeoman-blai/cli/bin/yeoman`) 
 
-One you have this done, run `yeoman server` from the root of this sample project.
+One you have this done (make sure you also do `npm install` to resolve the express.js dependency), run `yeoman server` from the root of this sample project.
 Alternatively, you can do `yeoman server:server/french` to see how you can point to a difference express.js server file at command line

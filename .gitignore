@@ -1,0 +1,3 @@
+# Ignore hidden folders
+.*/
+node_modules
